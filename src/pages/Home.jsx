@@ -1,25 +1,16 @@
 import React from 'react'
-import Coin from "../assets/eth-coin.png"
+import Landing from '../components/Landing'
+import SearchCoin from '../components/SearchCoin'
+import { useState } from 'react'
+import Coins from '../components/Coins'
 
 function Home() {
-  function test(){
-    console.log("A")
-  }
+  const [coins, setCoins] = useState([])
   return (
     <section id="home">
-      <div className="home-container">
-        <div className="home-coin">
-          <img src={Coin} alt="" className='blue-coin'/>
-        </div>
-        <div className="home-heading">
-          <h4>Cryptocurrency</h4>
-          <h4>investments<span className='blue'>.</span></h4>
-          <h5 className='blue'>Blockchain solutions</h5>
-          <button onClick={test} className="details-btn">
-            Details
-          </button>
-        </div>
-      </div>
+      <Landing/>
+      <SearchCoin setCoins={setCoins}/>
+      <Coins setCoins={setCoins} coins={coins}/>
     </section>
   )
 }

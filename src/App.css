@@ -5,6 +5,9 @@
   box-sizing: border-box;
   font-family: 'Oswald', sans-serif;
 }
+body{
+  background-color: #28282B
+}
 
 .blue{
   color: 	#6082B6;
@@ -100,7 +103,7 @@
 .home-heading h5{
   font-size: 48px;
 }
-.details-btn{
+.explore-btn{
   width: 100px;
   height: 50px;
   border-radius: 20px;
@@ -113,8 +116,37 @@
   margin-left: 12px;
   transition: 300ms ease all;
 }
-.details-btn:hover{
+.explore-btn:hover{
   transform: scale(1.2);
   color: #6082B6;
   border-color: #6082B6;
+}
+
+/* SEARCH */
+
+.search-heading{
+  text-align: center;
+  color: white;
+  font-size: 48px;
+  text-transform: capitalize;
+  font-weight: 300;
+}
+.search{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.search-input{
+  width: 500px;
+  height: 50px;
+  font-size: 48px;
+  font-weight: 300;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #6082B6;
+  outline: none;
+  text-align: center;
+  color: white;
 }
