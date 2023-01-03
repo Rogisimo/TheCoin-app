@@ -15,6 +15,9 @@ function NavBar() {
           <Link className='nav-link' to={"/markets"}>Coin Market</Link>
           <Link className='nav-link' to={"#contact"}>Contact</Link>
       </div>
+      <select>
+        <option value="english">English</option>
+      </select>
     </nav>
   )
 }

@@ -6,6 +6,10 @@
   font-family: 'Oswald', sans-serif;
 }
 
+.blue{
+  color: 	#6082B6;
+}
+
 /* NAVIGATION BAR */
 .nav-bar{
   background-color: #28282B;
@@ -19,7 +23,7 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: gold;
+  background-color:#B6D0E2;
   margin-right: 8px;
 }
 .logo{
@@ -33,6 +37,7 @@
 .logo h2 a{
   text-decoration: none;
   color: white;
+  text-transform: uppercase;
 }
 .nav-link{
   text-decoration: none;
@@ -40,8 +45,8 @@
   margin-right: 24px;
   background-image: linear-gradient(
     to right,
-    #FFD700,
-    #FFD700 50%,
+    #B6D0E2,
+    #B6D0E2 50%,
     #ffffff 50%
   );
   background-size: 200% 100%;
@@ -58,7 +63,7 @@
 }
 .nav-link:before{
   content: '';
-  background: #FFD700;
+  background: 	#B6D0E2;
   display: block;
   position: absolute;
   bottom: -2px;
@@ -69,4 +74,47 @@
 }
 .nav-link:hover::before{
   width: 100%;
+}
+
+/* HOME */
+.home-container{
+  min-height: 90vh;
+  background-color: #28282B;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.blue-coin{
+  width: 500px;
+  margin-top: 48px;
+}
+.home-heading{
+  max-width: 1200px;
+  margin-left: -500px;
+  color: white;
+}
+.home-heading h4{
+  font-size: 64px;
+}
+.home-heading h5{
+  font-size: 48px;
+}
+.details-btn{
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  margin-top: 24px;
+  margin-left: 12px;
+  transition: 300ms ease all;
+}
+.details-btn:hover{
+  transform: scale(1.2);
+  color: #6082B6;
+  border-color: #6082B6;
 }
