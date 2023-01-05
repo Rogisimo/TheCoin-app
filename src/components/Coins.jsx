@@ -17,7 +17,7 @@ function Coins({ setCoins, coins }) {
       );
   
       setCoins(coinsData.data.coins)
-      //console.log(coins.data.coins)
+      console.log(coins)
      
     };
 
