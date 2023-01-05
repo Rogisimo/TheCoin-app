@@ -150,3 +150,23 @@ body{
   text-align: center;
   color: white;
 }
+
+/* Coin Card */
+
+.coin-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: calc(100%/3);
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.coin-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.icon-img{
+  width: 50px;
+}
