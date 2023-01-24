@@ -11,7 +11,7 @@ function App() {
     <section id='landing'>
       <NavBar/>
       <Routes>
-        <Route path='/' element={<Home/>}/>
+        <Route path='/thecoin-app' element={<Home/>}/>
         <Route path='/coin/:id' element={<CoinDetail/>}/>
       </Routes>
       <Footer/>
