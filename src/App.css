@@ -22,6 +22,10 @@ body{
   align-items: center;
   justify-content: space-around;
 }
+.nav-link-list{
+  position: absolute;
+  margin-left: 350px;
+}
 .logo-bubble{
   width: 50px;
   height: 50px;
@@ -87,7 +91,6 @@ body{
   align-items: center;
   justify-content: center;
   position: absolute;
-  left: -25px;
   top: 0;
   height: 350px;
   width: 500px;
@@ -287,6 +290,9 @@ nav a:hover {
   justify-content: center;
   min-height: 20vh;
   flex-wrap: wrap;
+  background-color: black;
+  color: white;
+  padding-top: 24px;
 }
 
 .footer-icon {
@@ -344,7 +350,18 @@ nav a:hover {
   .footer-container {
     flex-wrap: wrap;
   }
+  .nav-link-list{
+    display: none;
+  }
+  .icon{
+    font-size: 48px;
+    margin-left: 80px;
+  }
+  .links-burger{
+    width: 100%;
 
+    left: 0;
+  }
   .footer-icon {
     margin-bottom: 0.5rem;
   }
@@ -354,7 +371,6 @@ nav a:hover {
     margin-bottom: 0.5rem;
   }
 }
-
 @media(max-width:415px){
   .icon{
     font-size: 48px;
@@ -365,11 +381,20 @@ nav a:hover {
   .coin-card{
     width: 500px;
   }
-  .links-burger{
-  padding-right: 100px;
-  }
   .icon-x{
     font-size: 28px;
+  }
+  .footer-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-container nav{
+    font-size: 12px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-container a{
+    margin-bottom: 24px;
   }
 }
 
