@@ -20,8 +20,6 @@ function SearchCoin({setCoins}) {
 
             setSearch('')
             setCoins(searchedCoins)
-
-            console.log(searchedCoins)
         }
     }
     
@@ -34,7 +32,7 @@ function SearchCoin({setCoins}) {
         </div>
         <div className="search">
         <input className='search-input' type="text" value={search} onChange={(e) => setSearch(e.target.value.toLowerCase())} />
-        <button onClick={handleSearch} className='explore-btn'>Search</button>
+        <button onClick={handleSearch} className='explore-btn search-btn'>Search</button>
         </div>
     </section>
   )

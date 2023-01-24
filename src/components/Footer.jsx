@@ -1,9 +1,21 @@
-import React from 'react'
+import React from 'react';
+import { FaCoins } from 'react-icons/fa';
 
-function Footer() {
+const Footer = () => {
   return (
-    <div>Footer</div>
-  )
+    <footer>
+      <div className="footer-container">
+      <FaCoins className="footer-icon" />
+        <nav>
+          <a href="/">Home</a>
+          <a href="/">Cryptocurrencies</a>
+          <a href="/">Coin Market</a>
+          <a href="/">Contact</a>
+        </nav>
+        <p>Copyright &copy; {new Date().getFullYear()}</p>
+      </div>
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;

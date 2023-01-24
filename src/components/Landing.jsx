@@ -1,9 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Coin from "../assets/eth-coin.png"
 
 function Landing() {
   return (
-    <div className="home-container">
+    <div className="home-container black">
         <div className="home-coin">
           <img src={Coin} alt="" className='blue-coin'/>
         </div>

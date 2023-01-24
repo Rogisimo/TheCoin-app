@@ -8,6 +8,7 @@ function CoinCard({coin}) {
         <h3>{coin.name}</h3>
         <img src={coin.iconUrl} alt="" className='icon-img'/>
         <p className='coin-price'>${parseFloat(coin.price).toFixed(2)}</p>
+        <p className='coin-price'>{parseFloat(coin.change).toFixed(2)+ "%"}</p>
         <p className='coin-rank'>#{coin.rank}</p>
         </div>
     </div>

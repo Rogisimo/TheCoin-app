@@ -2,7 +2,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import CoinCard from "./CoinCard";
 
-import { fetchData, coinsOptions } from "../utils/fetchData";
+import { fetchData, coinsOptions} from "../utils/fetchData";
 
 function Coins({ setCoins, coins }) {
 
@@ -17,8 +17,6 @@ function Coins({ setCoins, coins }) {
       );
   
       setCoins(coinsData.data.coins)
-      console.log(coins)
-     
     };
 
     fetchCoinsData();
