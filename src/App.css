@@ -382,7 +382,7 @@ nav a:hover {
     width: 500px;
   }
   .icon-x{
-    font-size: 28px;
+    font-size: 0px;
   }
   .footer-container{
     display: flex;

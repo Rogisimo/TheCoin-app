@@ -21,18 +21,18 @@ function NavBar() {
       </div>
       <div className="nav-link-list">
           <Link className='nav-link' to={"/"}>Home</Link>
-          <Link className='nav-link' to={"/cryptocurencies"}>Cryptocurencies</Link>
-          <Link className='nav-link' to={"/markets"}>Coin Market</Link>
-          <Link className='nav-link' to={"#contact"}>Contact</Link>
+          <Link className='nav-link' to={"/"}>Cryptocurencies</Link>
+          <Link className='nav-link' to={"/"}>Coin Market</Link>
+          <Link className='nav-link' to={"/"}>Contact</Link>
       </div>
       <i class="fa-solid fa-bars icon" id='icon-burger' onClick={openMenu}></i>
       <div className="burger-menu">
       <i class="fa-solid fa-x icon-x" onClick={closeMenu} id='icon-x'></i>
         <div className="links-burger" id='links-burger'>
         <Link className='nav-link-burger' to={"/"}>Home</Link>
-          <Link className='nav-link-burger' to={"/cryptocurencies"}>Cryptocurencies</Link>
-          <Link className='nav-link-burger' to={"/markets"}>Coin Market</Link>
-          <Link className='nav-link-burger' to={"#contact"}>Contact</Link>
+          <Link className='nav-link-burger' to={"/"}>Cryptocurencies</Link>
+          <Link className='nav-link-burger' to={"/"}>Coin Market</Link>
+          <Link className='nav-link-burger' to={"#"}>Contact</Link>
         </div>
       </div>
     </nav>
