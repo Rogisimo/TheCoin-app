@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/TheCoin-app/static/css/main.5facf57b.css",
-    "main.js": "/TheCoin-app/static/js/main.31ac6e2b.js",
-    "static/js/787.aa592de5.chunk.js": "/TheCoin-app/static/js/787.aa592de5.chunk.js",
-    "static/media/logo.png": "/TheCoin-app/static/media/logo.79fd2368a7006019ac30.png",
-    "static/media/eth-coin.png": "/TheCoin-app/static/media/eth-coin.7433db9ec7681b18a1dd.png",
-    "index.html": "/TheCoin-app/index.html",
-    "main.5facf57b.css.map": "/TheCoin-app/static/css/main.5facf57b.css.map",
-    "main.31ac6e2b.js.map": "/TheCoin-app/static/js/main.31ac6e2b.js.map",
-    "787.aa592de5.chunk.js.map": "/TheCoin-app/static/js/787.aa592de5.chunk.js.map"
+    "main.css": "/static/css/main.5facf57b.css",
+    "main.js": "/static/js/main.0145ad90.js",
+    "static/js/787.aa592de5.chunk.js": "/static/js/787.aa592de5.chunk.js",
+    "static/media/logo.png": "/static/media/logo.79fd2368a7006019ac30.png",
+    "static/media/eth-coin.png": "/static/media/eth-coin.7433db9ec7681b18a1dd.png",
+    "index.html": "/index.html",
+    "main.5facf57b.css.map": "/static/css/main.5facf57b.css.map",
+    "main.0145ad90.js.map": "/static/js/main.0145ad90.js.map",
+    "787.aa592de5.chunk.js.map": "/static/js/787.aa592de5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5facf57b.css",
-    "static/js/main.31ac6e2b.js"
+    "static/js/main.0145ad90.js"
   ]
 }
